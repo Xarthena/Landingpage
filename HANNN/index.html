@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <!-- Pengaturan dasar halaman: bahasa, ukuran layar, deskripsi, dan judul tab. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Kenalan dengan Brahman, tim kreatif yang membantu bisnis dan kreator membangun solusi digital."
+    >
+    <title>Brahman — Partner Digitalmu</title>
+    <!-- Mengambil aturan tampilan dari file styles.css. -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Bagian paling atas halaman. Menu di sini mengarah ke bagian Tentang, Layanan, dan Kontak. -->
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navigasi utama">
+        <!-- Logo mengarah kembali ke bagian atas halaman. -->
+        <a class="brand" href="#" aria-label="Brahman, beranda">
+          <img class="brand-logo" src="Asset/brahman-logo-transparent.png" alt="Brahman">
+        </a>
+        <div class="nav-links">
+          <!-- Tanda # mengarahkan pengunjung ke elemen dengan id yang sama. -->
+          <a href="#tentang">Tentang</a>
+          <a href="#layanan">Layanan</a>
+          <a href="#paket">Paket</a>
+          <a href="#portfolio">Portofolio</a>
+          <a class="button" href="#kontak">Ngobrol yuk <span aria-hidden="true">&nbsp;↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Semua bagian utama landing page diletakkan di dalam main. -->
+    <main>
+      <!-- Bagian pembuka memakai gambar sebagai latar, sementara jendela kode tetap di dalam bingkai. -->
+      <section class="hero container" aria-labelledby="hero-title">
+        <div>
+          <p class="eyebrow">Tim digital kreatif</p>
+          <h1 id="hero-title">Ide bagus, jadi <span>solusi digital.</span></h1>
+          <!-- Paragraf singkat tentang siapa tim ini dan siapa yang dibantu. -->
+          <p class="hero-copy">
+            Kami Brahman — tim developer dan kreator digital yang membantu bisnis
+            dan personal brand tampil lebih siap di dunia online.
+          </p>
+          <!-- Tombol ini menggulir halaman ke bagian yang dituju. -->
+          <div class="button-row">
+            <a class="button" href="#layanan">Lihat layanan <span aria-hidden="true">&nbsp;↓</span></a>
+            <a class="button button-light" href="#tentang">Kenalan dengan kami</a>
+          </div>
+        </div>
+        <!-- Ilustrasi kode di dalam bingkai, sebagai gambaran layanan digital tim. -->
+        <div class="hero-card" aria-label="Ilustrasi jendela kode">
+          <div class="code-window">
+            <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+            <code>
+              <span class="code-comment">// ide kamu, kami wujudkan</span><br>
+              const <span class="code-highlight">project</span> = {<br>
+              &nbsp;&nbsp;ide: "berani mulai",<br>
+              &nbsp;&nbsp;hasil: "siap online"<br>
+              };
+            </code>
+          </div>
+        </div>
+      </section>
+
+      <!-- id="tentang" adalah tujuan tautan #tentang di menu atas. -->
+      <section class="section" id="tentang" aria-labelledby="about-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Siapa kami?</p>
+            <h2 id="about-title">Partner coding yang enak diajak kolaborasi.</h2>
+            <p>
+              Kami adalah tim kecil dengan semangat besar untuk bikin teknologi
+              terasa lebih dekat. Bukan cuma menulis kode, kami mendengarkan
+              kebutuhanmu dan mencari solusi yang benar-benar berguna.
+            </p>
+          </div>
+          <!-- Tiga kartu yang menjelaskan cara kerja dan prinsip tim. -->
+          <div class="about-grid">
+            <article class="info-card">
+              <span class="number">01 / CARA KERJA</span>
+              <h3>Komunikatif</h3>
+              <p>Progres jelas, diskusi terbuka, dan tidak bikin kamu menebak-nebak.</p>
+            </article>
+            <article class="info-card">
+              <span class="number">02 / PEGANGAN</span>
+              <h3>Fokus ke solusi</h3>
+              <p>Setiap fitur dibuat dengan tujuan dan kebutuhan pengguna yang nyata.</p>
+            </article>
+            <article class="info-card">
+              <span class="number">03 / HASIL</span>
+              <h3>Rapi dan mudah dikembangkan</h3>
+              <p>Fondasi digital yang bisa terus tumbuh bersama bisnis atau idemu.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- id="layanan" adalah tujuan tautan #layanan di menu atas. -->
+      <section class="section services" id="layanan" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Yang bisa kami bantu</p>
+            <h2 id="services-title">Dari ide pertama sampai siap diluncurkan.</h2>
+            <p>Pilih bantuan yang paling sesuai. Kita bisa mulai dari yang sederhana.</p>
+          </div>
+          <!-- Setiap kartu di bawah ini menjelaskan satu jenis layanan. -->
+          <div class="service-grid">
+            <article class="info-card service-card">
+              <span class="service-icon" aria-hidden="true">&lt;/&gt;</span>
+              <h3>Website &amp; landing page</h3>
+              <p>Halaman web responsif untuk portofolio, promosi, bisnis, atau personal brand.</p>
+            </article>
+            <article class="info-card service-card">
+              <span class="service-icon" aria-hidden="true">✳</span>
+              <h3>Aplikasi web</h3>
+              <p>Website interaktif dengan fitur yang disesuaikan dengan alur kerjamu.</p>
+            </article>
+            <article class="info-card service-card">
+              <span class="service-icon" aria-hidden="true">↗</span>
+              <h3>Konsultasi &amp; perawatan</h3>
+              <p>Diskusi kebutuhan teknis, perbaikan, dan pengembangan website yang sudah ada.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bagian pilihan paket dan harga layanan. -->
+      <section class="section pricing" id="paket" aria-labelledby="pricing-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Pilih paket</p>
+            <h2 id="pricing-title">Mulai dari kebutuhanmu.</h2>
+            <p>Setiap paket mencakup fitur paket sebelumnya, lalu ditambah fitur berikutnya.</p>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="pricing-card">
+              <p class="plan-name">Basic</p>
+              <p class="plan-description">Untuk memulai hadir secara online.</p>
+              <p class="plan-price"><span>Rp</span>250.000</p>
+              <p class="plan-note">Harga awal per proyek</p>
+              <ul class="plan-features">
+                <li>Landing page satu halaman</li>
+                <li>Tampilan ramah untuk ponsel</li>
+                <li>Tombol kontak WhatsApp</li>
+                <li>1 kali revisi</li>
+              </ul>
+              <a class="button button-light plan-button" href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20paket%20Basic.">Pilih Basic</a>
+            </article>
+
+            <article class="pricing-card pricing-featured">
+              <span class="popular-label">Paling populer</span>
+              <p class="plan-name">Professional</p>
+              <p class="plan-description">Untuk bisnis yang ingin tampil lebih lengkap.</p>
+              <p class="plan-price"><span>Rp</span>500.000</p>
+              <p class="plan-note">Harga awal per proyek</p>
+              <ul class="plan-features">
+                <li>Semua fitur Basic</li>
+                <li>Hingga 5 bagian halaman</li>
+                <li>Formulir kontak</li>
+                <li>3 kali revisi</li>
+              </ul>
+              <a class="button plan-button" href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20paket%20Professional.">Pilih Professional</a>
+            </article>
+
+            <article class="pricing-card">
+              <p class="plan-name">Enterprise</p>
+              <p class="plan-description">Untuk kebutuhan digital yang lebih khusus.</p>
+              <p class="plan-price"><span>Rp</span>750.000</p>
+              <p class="plan-note">Harga awal per proyek</p>
+              <ul class="plan-features">
+                <li>Semua fitur Professional</li>
+                <li>Fitur khusus sesuai kebutuhan</li>
+                <li>Integrasi layanan tambahan</li>
+                <li>Prioritas dukungan</li>
+              </ul>
+              <a class="button button-light plan-button" href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20paket%20Enterprise.">Pilih Enterprise</a>
+            </article>
+          </div>
+          <p class="pricing-note">Ruang lingkup akhir dan harga disepakati setelah diskusi kebutuhan proyek.</p>
+          <p class="pricing-feedback" id="pricing-feedback" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <!-- Contoh tampilan proyek untuk menunjukkan jenis pekerjaan yang bisa dibuat tim. -->
+      <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Contoh karya</p>
+            <h2 id="portfolio-title">Ide yang bisa jadi produk digital.</h2>
+            <p>Ini contoh konsep untuk portofolio. Ganti dengan proyek asli tim saat sudah tersedia.</p>
+          </div>
+
+          <!-- Setiap kartu berisi pratinjau desain dan ringkasan jenis proyek. -->
+          <div class="portfolio-grid">
+            <article class="portfolio-card">
+              <div class="portfolio-preview preview-cafe" aria-hidden="true">
+                <div class="project-window cafe-window">
+                  <div class="project-topline"><strong>senja.</strong><span>Menu&nbsp;&nbsp; Cerita</span></div>
+                  <div class="cafe-content">
+                    <span class="project-label">COFFEE &amp; GOOD MOOD</span>
+                    <strong>Tempat pulang<br>setelah hari panjang.</strong>
+                    <span class="cafe-button">Jelajahi menu</span>
+                    <span class="cafe-cup"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <span class="project-type">WEBSITE BISNIS</span>
+                <h3>Senja Coffee</h3>
+                <p>Website kedai kopi dengan menu dan cerita brand yang mudah dijelajahi.</p>
+              </div>
+            </article>
+
+            <article class="portfolio-card">
+              <div class="portfolio-preview preview-dashboard" aria-hidden="true">
+                <div class="project-window dashboard-window">
+                  <div class="dashboard-title"><span>Ringkasan</span><span>•••</span></div>
+                  <div class="dashboard-total">Penjualan bulan ini<strong>Rp 24.850.000</strong></div>
+                  <div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                  <div class="dashboard-rows"><i></i><i></i><i></i></div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <span class="project-type">DASHBOARD</span>
+                <h3>Rapihkan Bisnis</h3>
+                <p>Dashboard sederhana untuk membantu pemilik usaha memantau penjualan.</p>
+              </div>
+            </article>
+
+            <article class="portfolio-card">
+              <div class="portfolio-preview preview-mobile" aria-hidden="true">
+                <div class="phone-screen">
+                  <div class="phone-notch"></div>
+                  <div class="phone-brand">fresh<span>box</span></div>
+                  <div class="phone-greeting">Makan enak,<br><strong>hidup lebih segar.</strong></div>
+                  <div class="food-picture"><span></span></div>
+                  <div class="food-caption"><strong>Green bowl</strong><span>Rp 32.000</span></div>
+                  <div class="phone-add">+ Tambah ke keranjang</div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <span class="project-type">WEB MOBILE</span>
+                <h3>Freshbox</h3>
+                <p>Pengalaman pemesanan makanan yang nyaman digunakan lewat ponsel.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Urutan kerja dari obrolan awal sampai hasil siap digunakan. -->
+      <section class="section process" aria-labelledby="process-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Proses sederhana</p>
+            <h2 id="process-title">Kolaborasi yang jelas dari awal.</h2>
+          </div>
+          <!-- Angka menunjukkan urutan setiap tahap. -->
+          <div class="process-grid">
+            <article class="process-card info-card">
+              <span class="number">01</span>
+              <h3>Kenalan</h3>
+              <p>Cerita tentang ide, kebutuhan, dan tujuanmu.</p>
+            </article>
+            <article class="process-card info-card">
+              <span class="number">02</span>
+              <h3>Rencanakan</h3>
+              <p>Kami susun ruang lingkup dan langkah pengerjaan.</p>
+            </article>
+            <article class="process-card info-card">
+              <span class="number">03</span>
+              <h3>Bangun</h3>
+              <p>Kita cek progres dan beri masukan bersama.</p>
+            </article>
+            <article class="process-card info-card">
+              <span class="number">04</span>
+              <h3>Luncurkan</h3>
+              <p>Solusimu siap digunakan dan dikembangkan.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bagian penutup yang mengajak pengunjung menghubungi tim. -->
+      <section class="container" id="kontak" aria-labelledby="contact-title">
+        <div class="contact">
+          <p class="eyebrow">Punya ide?</p>
+          <h2 id="contact-title">Yuk, bikin sesuatu yang berguna bareng.</h2>
+          <p>Ceritakan kebutuhanmu. Kita mulai dengan obrolan santai, tanpa komitmen.</p>
+          <!-- Ganti nomor contoh ini dengan nomor WhatsApp tim, termasuk kode negara. -->
+          <a class="button" href="https://wa.me/6281234567890">Hubungi kami <span aria-hidden="true">&nbsp;↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bagian paling bawah halaman: logo dan informasi hak cipta. -->
+    <footer class="site-footer container">
+      <a class="brand" href="#">Brahman</a>
+      <span>© 2026 Brahman. Dibuat dengan semangat kolaborasi.</span>
+    </footer>
+    <!-- Mengambil interaksi dari script.js setelah isi halaman selesai dimuat. -->
+    <script src="script.js" defer></script>
+  </body>
+</html>
